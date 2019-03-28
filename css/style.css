@@ -1,0 +1,130 @@
+
+
+body{
+  background-color: #ccd6ff;
+  text-align: center;
+ // min-width: 320px;
+}
+#main{
+ // background-color: #e6e6ff;
+  padding: 5px;
+}
+#title{
+//  background-color: yellow;
+}
+#form-outer{
+  background-color:  #e6ebff;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 900px;
+}
+#description{
+ // background-color: greenyellow;
+}
+#survey-form{
+ // background-color: purple;
+  height: auto;
+  
+}
+
+.row-tab
+{
+ // margin-top: 5px;
+ // background-color:pink;
+}
+.left-tab{
+  //background-color: yellow;
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+ vertical-align: top;
+  margin-top: 10px;
+  padding: 5px;
+}
+.right-tab{
+ // background-color: lime;
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+ vertical-align: middle;
+}
+.input-field
+{
+  padding: 5px;
+ 
+  border: 1px solid gray;
+  border-radius: 4px;
+  height: 20px;
+  margin:10px;
+  width: 80%;
+  
+}
+.dropdown
+{
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  height: 40px;
+  margin:10px;
+}
+.radio-label, .checkbox-label
+{
+  //background-color: red;
+  display: block;
+  margin-left: 5px;
+  margin-top: 15px;
+  padding: 2px;
+}
+#submit
+{
+  background-color: #22ADE1;
+  border-radius: 4px;
+  font-size: 1em;
+  margin: 10px;
+  padding: 5px;
+  height: 40px;
+  width: 96px;
+  border: 0px solid;
+}
+@media screen and (max-width: 833px)
+{
+  .input-field
+{
+ // background-color: red;
+  width: 80%;
+}
+  select
+  {
+     width: 80%;
+  }
+ 
+}
+@media screen and (max-width: 520px)
+{
+  
+  .left-tab{
+    width: 90%;
+    text-align: left;
+   //margin-right : 20%;
+  }
+  
+  .right-tab{
+    float: left;
+    width: 90%;
+    
+  }
+  .input-field
+{
+ 
+ // background-color: blue;
+  width: 100%;
+  //  width: calc(100% - 10%);"
+  
+}
+  select {
+    width: 100%;
+  }
+
+}
